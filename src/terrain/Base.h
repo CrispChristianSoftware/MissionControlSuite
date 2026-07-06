@@ -5,7 +5,14 @@
 
 class Base
 {
-
+    private:
+        int id;
+        int x;
+        int y;
+    public:
+        int getId() { return id; };
+        int getX() { return x; };
+        int getY() { return y; };
 };
 
 
