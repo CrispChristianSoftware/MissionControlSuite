@@ -1,0 +1,38 @@
+{
+    "name": "Starting Map",
+    "width": 100,
+    "height": 100,
+    "base":
+    [
+        {
+            "id": 1,
+            "x": 50,
+            "y": 50
+        }
+    ],
+    "map objects":
+    [
+        {
+            "type": "buidling",
+            "x": 30,
+            "y": 50,
+            "width": 8,
+            "height": 8
+        },
+        {
+            "type": "tree",
+            "x": 60,
+            "y": 25,
+            "radius": 3
+        }
+    ],
+
+    "noFlyZones":
+    [
+        {
+            "x": 76,
+            "y": 70,
+            "radius": 15
+        }
+    ]
+}
