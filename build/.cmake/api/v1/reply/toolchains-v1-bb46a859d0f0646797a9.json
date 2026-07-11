@@ -1,0 +1,86 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"C:/Dwimperl/c/include/c++/4.4.3",
+						"C:/Dwimperl/c/include/c++/4.4.3/i686-w64-mingw32",
+						"C:/Dwimperl/c/include/c++/4.4.3/backward",
+						"C:/Dwimperl/c/include",
+						"C:/Dwimperl/c/lib/gcc/i686-w64-mingw32/4.4.3/include",
+						"C:/Dwimperl/c/lib/gcc/i686-w64-mingw32/4.4.3/include-fixed",
+						"C:/Dwimperl/c/i686-w64-mingw32/include"
+					],
+					"linkDirectories" : 
+					[
+						"C:/Dwimperl/c/lib/gcc/i686-w64-mingw32/4.4.3",
+						"C:/Dwimperl/c/lib/gcc",
+						"C:/Dwimperl/c/lib32",
+						"C:/Dwimperl/c/i686-w64-mingw32/lib",
+						"C:/Dwimperl/c/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"stdc++",
+						"mingw32",
+						"gcc_s",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"user32",
+						"kernel32",
+						"advapi32",
+						"shell32",
+						"mingw32",
+						"gcc_s",
+						"gcc",
+						"moldname",
+						"mingwex"
+					]
+				},
+				"path" : "C:/Dwimperl/c/bin/c++.exe",
+				"version" : "4.4.3"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"m",
+				"mm",
+				"mpp",
+				"CPP"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"implicit" : {},
+				"path" : "C:/Dwimperl/c/bin/windres.exe"
+			},
+			"language" : "RC",
+			"sourceFileExtensions" : 
+			[
+				"rc",
+				"RC"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

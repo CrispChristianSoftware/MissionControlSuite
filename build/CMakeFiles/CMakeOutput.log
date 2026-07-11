@@ -1,0 +1,364 @@
+The system is: Windows - 10.0.26200 - AMD64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Dwimperl/c/bin/c++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is GNU, found in "C:/Users/cplaf/Documents/PROJECTO/MissionControlSuite/build/CMakeFiles/3.20.21032501-MSVC_2/CompilerIdCXX/a.exe"
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/cplaf/Documents/PROJECTO/MissionControlSuite/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Dwimperl/c/bin/gmake.exe -f Makefile cmTC_9d697/fast && C:/Dwimperl/c/bin/gmake.exe  -f CMakeFiles/cmTC_9d697.dir/build.make CMakeFiles/cmTC_9d697.dir/build
+gmake.exe[1]: Entering directory `C:/Users/cplaf/Documents/PROJECTO/MissionControlSuite/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9d697.dir/CMakeCXXCompilerABI.cpp.obj
+C:/Dwimperl/c/bin/c++.exe   -v -o CMakeFiles/cmTC_9d697.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CMakeCXXCompilerABI.cpp"
+Using built-in specs.
+Target: i686-w64-mingw32
+Configured with: ../gcc44-svn/configure --target=i686-w64-mingw32 --host=i686-w64-mingw32 --disable-multilib --disable-nls --disable-win32-registry --prefix=/mingw32 --with-gmp=/mingw32 --with-mpfr=/mingw32 --enable-languages=c,c++
+Thread model: win32
+gcc version 4.4.3 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9d697.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic'
+ c:/dwimperl/c/bin/../libexec/gcc/i686-w64-mingw32/4.4.3/cc1plus.exe -quiet -v -iprefix c:\dwimperl\c\bin\../lib/gcc/i686-w64-mingw32/4.4.3/ C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -auxbase-strip CMakeFiles/cmTC_9d697.dir/CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\cplaf\AppData\Local\Temp\ccqKk0Oy.s
+ignoring duplicate directory "c:/dwimperl/c/lib/gcc/../../lib/gcc/i686-w64-mingw32/4.4.3/../../../../include/c++/4.4.3"
+ignoring duplicate directory "c:/dwimperl/c/lib/gcc/../../lib/gcc/i686-w64-mingw32/4.4.3/../../../../include/c++/4.4.3/i686-w64-mingw32"
+ignoring duplicate directory "c:/dwimperl/c/lib/gcc/../../lib/gcc/i686-w64-mingw32/4.4.3/../../../../include/c++/4.4.3/backward"
+ignoring nonexistent directory "/mingw32/include"
+ignoring duplicate directory "c:/dwimperl/c/lib/gcc/../../include"
+ignoring duplicate directory "c:/dwimperl/c/lib/gcc/../../lib/gcc/i686-w64-mingw32/4.4.3/include"
+ignoring duplicate directory "c:/dwimperl/c/lib/gcc/../../lib/gcc/i686-w64-mingw32/4.4.3/include-fixed"
+ignoring duplicate directory "c:/dwimperl/c/lib/gcc/../../lib/gcc/i686-w64-mingw32/4.4.3/../../../../i686-w64-mingw32/include"
+ignoring nonexistent directory "/mingw/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ c:\dwimperl\c\bin\../lib/gcc/i686-w64-mingw32/4.4.3/../../../../include/c++/4.4.3
+ c:\dwimperl\c\bin\../lib/gcc/i686-w64-mingw32/4.4.3/../../../../include/c++/4.4.3/i686-w64-mingw32
+ c:\dwimperl\c\bin\../lib/gcc/i686-w64-mingw32/4.4.3/../../../../include/c++/4.4.3/backward
+ c:\dwimperl\c\bin\../lib/gcc/i686-w64-mingw32/4.4.3/../../../../include
+ c:\dwimperl\c\bin\../lib/gcc/i686-w64-mingw32/4.4.3/include
+ c:\dwimperl\c\bin\../lib/gcc/i686-w64-mingw32/4.4.3/include-fixed
+ c:\dwimperl\c\bin\../lib/gcc/i686-w64-mingw32/4.4.3/../../../../i686-w64-mingw32/include
+End of search list.
+GNU C++ (GCC) version 4.4.3 (i686-w64-mingw32)
+	compiled by GNU C version 4.4.3, GMP version 4.3.2, MPFR version 2.4.2-p3.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: e5fe7a0b7bc0c354bc3ef6c605f27238
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9d697.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic'
+ c:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3/../../../../i686-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_9d697.dir/CMakeCXXCompilerABI.cpp.obj C:\Users\cplaf\AppData\Local\Temp\ccqKk0Oy.s
+GNU assembler version 2.20.51 (i686-w64-mingw32) using BFD version (GNU Binutils) 2.20.51.20100123
+COMPILER_PATH=c:/dwimperl/c/bin/../libexec/gcc/i686-w64-mingw32/4.4.3/;c:/dwimperl/c/bin/../libexec/gcc/;c:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3/../../../../i686-w64-mingw32/bin/
+LIBRARY_PATH=c:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3/;c:/dwimperl/c/bin/../lib/gcc/;c:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3/../../../../lib32/;c:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3/../../../../i686-w64-mingw32/lib/;c:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9d697.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic'
+Linking CXX executable cmTC_9d697.exe
+"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_9d697.dir/objects.a
+C:/Dwimperl/c/bin/ar.exe cr CMakeFiles/cmTC_9d697.dir/objects.a @CMakeFiles/cmTC_9d697.dir/objects1.rsp
+C:/Dwimperl/c/bin/c++.exe  -v -Wl,--whole-archive CMakeFiles/cmTC_9d697.dir/objects.a -Wl,--no-whole-archive -o cmTC_9d697.exe -Wl,--out-implib,libcmTC_9d697.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Using built-in specs.
+Target: i686-w64-mingw32
+Configured with: ../gcc44-svn/configure --target=i686-w64-mingw32 --host=i686-w64-mingw32 --disable-multilib --disable-nls --disable-win32-registry --prefix=/mingw32 --with-gmp=/mingw32 --with-mpfr=/mingw32 --enable-languages=c,c++
+Thread model: win32
+gcc version 4.4.3 (GCC) 
+COMPILER_PATH=c:/dwimperl/c/bin/../libexec/gcc/i686-w64-mingw32/4.4.3/;c:/dwimperl/c/bin/../libexec/gcc/;c:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3/../../../../i686-w64-mingw32/bin/
+LIBRARY_PATH=c:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3/;c:/dwimperl/c/bin/../lib/gcc/;c:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3/../../../../lib32/;c:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3/../../../../i686-w64-mingw32/lib/;c:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9d697.exe' '-shared-libgcc' '-mtune=generic'
+ c:/dwimperl/c/bin/../libexec/gcc/i686-w64-mingw32/4.4.3/collect2.exe -m i386pe -Bdynamic -o cmTC_9d697.exe c:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3/../../../../i686-w64-mingw32/lib/crt2.o c:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3/crtbegin.o -Lc:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3 -Lc:/dwimperl/c/bin/../lib/gcc -Lc:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3/../../../../lib32 -Lc:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3/../../../../i686-w64-mingw32/lib -Lc:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3/../../.. --whole-archive CMakeFiles/cmTC_9d697.dir/objects.a --no-whole-archive --out-implib libcmTC_9d697.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -luser32 -lkernel32 -ladvapi32 -lshell32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3/crtend.o
+gmake.exe[1]: Leaving directory `C:/Users/cplaf/Documents/PROJECTO/MissionControlSuite/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [c:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3/../../../../include/c++/4.4.3]
+    add: [c:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3/../../../../include/c++/4.4.3/i686-w64-mingw32]
+    add: [c:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3/../../../../include/c++/4.4.3/backward]
+    add: [c:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3/../../../../include]
+    add: [c:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3/include]
+    add: [c:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3/include-fixed]
+    add: [c:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3/../../../../i686-w64-mingw32/include]
+  end of search list found
+  collapse include dir [c:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3/../../../../include/c++/4.4.3] ==> [C:/Dwimperl/c/include/c++/4.4.3]
+  collapse include dir [c:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3/../../../../include/c++/4.4.3/i686-w64-mingw32] ==> [C:/Dwimperl/c/include/c++/4.4.3/i686-w64-mingw32]
+  collapse include dir [c:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3/../../../../include/c++/4.4.3/backward] ==> [C:/Dwimperl/c/include/c++/4.4.3/backward]
+  collapse include dir [c:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3/../../../../include] ==> [C:/Dwimperl/c/include]
+  collapse include dir [c:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3/include] ==> [C:/Dwimperl/c/lib/gcc/i686-w64-mingw32/4.4.3/include]
+  collapse include dir [c:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3/include-fixed] ==> [C:/Dwimperl/c/lib/gcc/i686-w64-mingw32/4.4.3/include-fixed]
+  collapse include dir [c:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3/../../../../i686-w64-mingw32/include] ==> [C:/Dwimperl/c/i686-w64-mingw32/include]
+  implicit include dirs: [C:/Dwimperl/c/include/c++/4.4.3;C:/Dwimperl/c/include/c++/4.4.3/i686-w64-mingw32;C:/Dwimperl/c/include/c++/4.4.3/backward;C:/Dwimperl/c/include;C:/Dwimperl/c/lib/gcc/i686-w64-mingw32/4.4.3/include;C:/Dwimperl/c/lib/gcc/i686-w64-mingw32/4.4.3/include-fixed;C:/Dwimperl/c/i686-w64-mingw32/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/cplaf/Documents/PROJECTO/MissionControlSuite/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:/Dwimperl/c/bin/gmake.exe -f Makefile cmTC_9d697/fast && C:/Dwimperl/c/bin/gmake.exe  -f CMakeFiles/cmTC_9d697.dir/build.make CMakeFiles/cmTC_9d697.dir/build]
+  ignore line: [gmake.exe[1]: Entering directory `C:/Users/cplaf/Documents/PROJECTO/MissionControlSuite/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_9d697.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [C:/Dwimperl/c/bin/c++.exe   -v -o CMakeFiles/cmTC_9d697.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CMakeCXXCompilerABI.cpp"]
+  ignore line: [Using built-in specs.]
+  ignore line: [Target: i686-w64-mingw32]
+  ignore line: [Configured with: ../gcc44-svn/configure --target=i686-w64-mingw32 --host=i686-w64-mingw32 --disable-multilib --disable-nls --disable-win32-registry --prefix=/mingw32 --with-gmp=/mingw32 --with-mpfr=/mingw32 --enable-languages=c c++]
+  ignore line: [Thread model: win32]
+  ignore line: [gcc version 4.4.3 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9d697.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic']
+  ignore line: [ c:/dwimperl/c/bin/../libexec/gcc/i686-w64-mingw32/4.4.3/cc1plus.exe -quiet -v -iprefix c:\dwimperl\c\bin\../lib/gcc/i686-w64-mingw32/4.4.3/ C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -auxbase-strip CMakeFiles/cmTC_9d697.dir/CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\cplaf\AppData\Local\Temp\ccqKk0Oy.s]
+  ignore line: [ignoring duplicate directory "c:/dwimperl/c/lib/gcc/../../lib/gcc/i686-w64-mingw32/4.4.3/../../../../include/c++/4.4.3"]
+  ignore line: [ignoring duplicate directory "c:/dwimperl/c/lib/gcc/../../lib/gcc/i686-w64-mingw32/4.4.3/../../../../include/c++/4.4.3/i686-w64-mingw32"]
+  ignore line: [ignoring duplicate directory "c:/dwimperl/c/lib/gcc/../../lib/gcc/i686-w64-mingw32/4.4.3/../../../../include/c++/4.4.3/backward"]
+  ignore line: [ignoring nonexistent directory "/mingw32/include"]
+  ignore line: [ignoring duplicate directory "c:/dwimperl/c/lib/gcc/../../include"]
+  ignore line: [ignoring duplicate directory "c:/dwimperl/c/lib/gcc/../../lib/gcc/i686-w64-mingw32/4.4.3/include"]
+  ignore line: [ignoring duplicate directory "c:/dwimperl/c/lib/gcc/../../lib/gcc/i686-w64-mingw32/4.4.3/include-fixed"]
+  ignore line: [ignoring duplicate directory "c:/dwimperl/c/lib/gcc/../../lib/gcc/i686-w64-mingw32/4.4.3/../../../../i686-w64-mingw32/include"]
+  ignore line: [ignoring nonexistent directory "/mingw/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ c:\dwimperl\c\bin\../lib/gcc/i686-w64-mingw32/4.4.3/../../../../include/c++/4.4.3]
+  ignore line: [ c:\dwimperl\c\bin\../lib/gcc/i686-w64-mingw32/4.4.3/../../../../include/c++/4.4.3/i686-w64-mingw32]
+  ignore line: [ c:\dwimperl\c\bin\../lib/gcc/i686-w64-mingw32/4.4.3/../../../../include/c++/4.4.3/backward]
+  ignore line: [ c:\dwimperl\c\bin\../lib/gcc/i686-w64-mingw32/4.4.3/../../../../include]
+  ignore line: [ c:\dwimperl\c\bin\../lib/gcc/i686-w64-mingw32/4.4.3/include]
+  ignore line: [ c:\dwimperl\c\bin\../lib/gcc/i686-w64-mingw32/4.4.3/include-fixed]
+  ignore line: [ c:\dwimperl\c\bin\../lib/gcc/i686-w64-mingw32/4.4.3/../../../../i686-w64-mingw32/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++ (GCC) version 4.4.3 (i686-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 4.4.3  GMP version 4.3.2  MPFR version 2.4.2-p3.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: e5fe7a0b7bc0c354bc3ef6c605f27238]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9d697.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic']
+  ignore line: [ c:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3/../../../../i686-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_9d697.dir/CMakeCXXCompilerABI.cpp.obj C:\Users\cplaf\AppData\Local\Temp\ccqKk0Oy.s]
+  ignore line: [GNU assembler version 2.20.51 (i686-w64-mingw32) using BFD version (GNU Binutils) 2.20.51.20100123]
+  ignore line: [COMPILER_PATH=c:/dwimperl/c/bin/../libexec/gcc/i686-w64-mingw32/4.4.3/]
+  ignore line: [c:/dwimperl/c/bin/../libexec/gcc/]
+  ignore line: [c:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3/../../../../i686-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=c:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3/]
+  ignore line: [c:/dwimperl/c/bin/../lib/gcc/]
+  ignore line: [c:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3/../../../../lib32/]
+  ignore line: [c:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3/../../../../i686-w64-mingw32/lib/]
+  ignore line: [c:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9d697.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic']
+  ignore line: [Linking CXX executable cmTC_9d697.exe]
+  ignore line: ["C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_9d697.dir/objects.a]
+  ignore line: [C:/Dwimperl/c/bin/ar.exe cr CMakeFiles/cmTC_9d697.dir/objects.a @CMakeFiles/cmTC_9d697.dir/objects1.rsp]
+  ignore line: [C:/Dwimperl/c/bin/c++.exe  -v -Wl --whole-archive CMakeFiles/cmTC_9d697.dir/objects.a -Wl --no-whole-archive -o cmTC_9d697.exe -Wl --out-implib libcmTC_9d697.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Target: i686-w64-mingw32]
+  ignore line: [Configured with: ../gcc44-svn/configure --target=i686-w64-mingw32 --host=i686-w64-mingw32 --disable-multilib --disable-nls --disable-win32-registry --prefix=/mingw32 --with-gmp=/mingw32 --with-mpfr=/mingw32 --enable-languages=c c++]
+  ignore line: [Thread model: win32]
+  ignore line: [gcc version 4.4.3 (GCC) ]
+  ignore line: [COMPILER_PATH=c:/dwimperl/c/bin/../libexec/gcc/i686-w64-mingw32/4.4.3/]
+  ignore line: [c:/dwimperl/c/bin/../libexec/gcc/]
+  ignore line: [c:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3/../../../../i686-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=c:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3/]
+  ignore line: [c:/dwimperl/c/bin/../lib/gcc/]
+  ignore line: [c:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3/../../../../lib32/]
+  ignore line: [c:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3/../../../../i686-w64-mingw32/lib/]
+  ignore line: [c:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9d697.exe' '-shared-libgcc' '-mtune=generic']
+  link line: [ c:/dwimperl/c/bin/../libexec/gcc/i686-w64-mingw32/4.4.3/collect2.exe -m i386pe -Bdynamic -o cmTC_9d697.exe c:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3/../../../../i686-w64-mingw32/lib/crt2.o c:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3/crtbegin.o -Lc:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3 -Lc:/dwimperl/c/bin/../lib/gcc -Lc:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3/../../../../lib32 -Lc:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3/../../../../i686-w64-mingw32/lib -Lc:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3/../../.. --whole-archive CMakeFiles/cmTC_9d697.dir/objects.a --no-whole-archive --out-implib libcmTC_9d697.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -luser32 -lkernel32 -ladvapi32 -lshell32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3/crtend.o]
+    arg [c:/dwimperl/c/bin/../libexec/gcc/i686-w64-mingw32/4.4.3/collect2.exe] ==> ignore
+    arg [-m] ==> ignore
+    arg [i386pe] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_9d697.exe] ==> ignore
+    arg [c:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3/../../../../i686-w64-mingw32/lib/crt2.o] ==> ignore
+    arg [c:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3/crtbegin.o] ==> ignore
+    arg [-Lc:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3] ==> dir [c:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3]
+    arg [-Lc:/dwimperl/c/bin/../lib/gcc] ==> dir [c:/dwimperl/c/bin/../lib/gcc]
+    arg [-Lc:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3/../../../../lib32] ==> dir [c:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3/../../../../lib32]
+    arg [-Lc:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3/../../../../i686-w64-mingw32/lib] ==> dir [c:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3/../../../../i686-w64-mingw32/lib]
+    arg [-Lc:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3/../../..] ==> dir [c:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3/../../..]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles/cmTC_9d697.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_9d697.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [c:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3/crtend.o] ==> ignore
+  remove lib [msvcrt]
+  remove lib [msvcrt]
+  collapse library dir [c:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3] ==> [C:/Dwimperl/c/lib/gcc/i686-w64-mingw32/4.4.3]
+  collapse library dir [c:/dwimperl/c/bin/../lib/gcc] ==> [C:/Dwimperl/c/lib/gcc]
+  collapse library dir [c:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3/../../../../lib32] ==> [C:/Dwimperl/c/lib32]
+  collapse library dir [c:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3/../../../../i686-w64-mingw32/lib] ==> [C:/Dwimperl/c/i686-w64-mingw32/lib]
+  collapse library dir [c:/dwimperl/c/bin/../lib/gcc/i686-w64-mingw32/4.4.3/../../..] ==> [C:/Dwimperl/c/lib]
+  implicit libs: [stdc++;mingw32;gcc_s;gcc;moldname;mingwex;user32;kernel32;advapi32;shell32;mingw32;gcc_s;gcc;moldname;mingwex]
+  implicit dirs: [C:/Dwimperl/c/lib/gcc/i686-w64-mingw32/4.4.3;C:/Dwimperl/c/lib/gcc;C:/Dwimperl/c/lib32;C:/Dwimperl/c/i686-w64-mingw32/lib;C:/Dwimperl/c/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++0x] compiler features compiled with the following output:
+Change Dir: C:/Users/cplaf/Documents/PROJECTO/MissionControlSuite/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Dwimperl/c/bin/gmake.exe -f Makefile cmTC_e0676/fast && C:/Dwimperl/c/bin/gmake.exe  -f CMakeFiles/cmTC_e0676.dir/build.make CMakeFiles/cmTC_e0676.dir/build
+gmake.exe[1]: Entering directory `C:/Users/cplaf/Documents/PROJECTO/MissionControlSuite/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e0676.dir/feature_tests.cxx.obj
+C:/Dwimperl/c/bin/c++.exe   -std=c++0x -o CMakeFiles/cmTC_e0676.dir/feature_tests.cxx.obj -c C:/Users/cplaf/Documents/PROJECTO/MissionControlSuite/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_e0676.exe
+"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_e0676.dir/objects.a
+C:/Dwimperl/c/bin/ar.exe cr CMakeFiles/cmTC_e0676.dir/objects.a @CMakeFiles/cmTC_e0676.dir/objects1.rsp
+C:/Dwimperl/c/bin/c++.exe -Wl,--whole-archive CMakeFiles/cmTC_e0676.dir/objects.a -Wl,--no-whole-archive -o cmTC_e0676.exe -Wl,--out-implib,libcmTC_e0676.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_e0676.dir/linklibs.rsp
+gmake.exe[1]: Leaving directory `C:/Users/cplaf/Documents/PROJECTO/MissionControlSuite/build/CMakeFiles/CMakeTmp'
+
+
+
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: C:/Users/cplaf/Documents/PROJECTO/MissionControlSuite/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Dwimperl/c/bin/gmake.exe -f Makefile cmTC_35350/fast && C:/Dwimperl/c/bin/gmake.exe  -f CMakeFiles/cmTC_35350.dir/build.make CMakeFiles/cmTC_35350.dir/build
+gmake.exe[1]: Entering directory `C:/Users/cplaf/Documents/PROJECTO/MissionControlSuite/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_35350.dir/feature_tests.cxx.obj
+C:/Dwimperl/c/bin/c++.exe   -std=c++98 -o CMakeFiles/cmTC_35350.dir/feature_tests.cxx.obj -c C:/Users/cplaf/Documents/PROJECTO/MissionControlSuite/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_35350.exe
+"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_35350.dir/objects.a
+C:/Dwimperl/c/bin/ar.exe cr CMakeFiles/cmTC_35350.dir/objects.a @CMakeFiles/cmTC_35350.dir/objects1.rsp
+C:/Dwimperl/c/bin/c++.exe -Wl,--whole-archive CMakeFiles/cmTC_35350.dir/objects.a -Wl,--no-whole-archive -o cmTC_35350.exe -Wl,--out-implib,libcmTC_35350.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_35350.dir/linklibs.rsp
+gmake.exe[1]: Leaving directory `C:/Users/cplaf/Documents/PROJECTO/MissionControlSuite/build/CMakeFiles/CMakeTmp'
+
+
+
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_variable_templates

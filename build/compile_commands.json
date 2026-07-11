@@ -1,0 +1,7 @@
+[
+{
+  "directory": "C:/Users/cplaf/Documents/PROJECTO/MissionControlSuite/build",
+  "command": "C:/Dwimperl/c/bin/c++.exe  @CMakeFiles/MissionControl.dir/includes_CXX.rsp -g -std=gnu++0x -o CMakeFiles/MissionControl.dir/src/main.cpp.obj -c C:/Users/cplaf/Documents/PROJECTO/MissionControlSuite/src/main.cpp",
+  "file": "C:/Users/cplaf/Documents/PROJECTO/MissionControlSuite/src/main.cpp"
+}
+]
