@@ -1,7 +1,8 @@
 [
 {
   "directory": "C:/Users/cplaf/Documents/PROJECTO/MissionControlSuite/build",
-  "command": "C:/Dwimperl/c/bin/c++.exe  @CMakeFiles/MissionControl.dir/includes_CXX.rsp -g -std=gnu++0x -o CMakeFiles/MissionControl.dir/src/main.cpp.obj -c C:/Users/cplaf/Documents/PROJECTO/MissionControlSuite/src/main.cpp",
-  "file": "C:/Users/cplaf/Documents/PROJECTO/MissionControlSuite/src/main.cpp"
+  "command": "C:/msys64/clang64/bin/clang++.exe   -g -std=gnu++20 -Wall -Wextra -Wpedantic -o CMakeFiles/MissionControl.dir/src/main.cpp.obj -c C:/Users/cplaf/Documents/PROJECTO/MissionControlSuite/src/main.cpp",
+  "file": "C:/Users/cplaf/Documents/PROJECTO/MissionControlSuite/src/main.cpp",
+  "output": "CMakeFiles/MissionControl.dir/src/main.cpp.obj"
 }
 ]

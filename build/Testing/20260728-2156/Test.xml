@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Win32-gmake"
+	BuildStamp="20260728-2156-Experimental"
+	Name="DESKTOP-ORIGVH1"
+	Generator="ctest-4.4.0"
+	CompilerName="C:/msys64/clang64/bin/clang++.exe"
+	CompilerVersion="22.1.8"
+	OSName="Windows"
+	Hostname="DESKTOP-ORIGVH1"
+	OSRelease="10.0.26200"
+	OSVersion="Windows 10"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString=""
+	VendorID="Unknown Manufacturer"
+	FamilyID="0"
+	ModelID="0"
+	ModelName=""
+	ProcessorCacheSize="0"
+	NumberOfLogicalCPU="12"
+	NumberOfPhysicalCPU="6"
+	TotalVirtualMemory="19456"
+	TotalPhysicalMemory="31957"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="3301.000000"
+	>
+	<Testing>
+		<StartDateTime>Jul 28 17:57 Eastern Daylight Time</StartDateTime>
+		<StartTestTime>1785275871</StartTestTime>
+		<TestList/>
+		<EndDateTime>Jul 28 17:57 Eastern Daylight Time</EndDateTime>
+		<EndTestTime>1785275871</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

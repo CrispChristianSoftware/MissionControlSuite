@@ -21,13 +21,14 @@ LabelsForSubprojects:
 
 # Submission information
 SubmitURL: http://
+SubmitInactivityTimeout: 
 
 # Dashboard start time
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" "C:/Users/cplaf/Documents/PROJECTO/MissionControlSuite"
-MakeCommand: C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe --build . --config "${CTEST_CONFIGURATION_TYPE}"
+ConfigureCommand: "C:/msys64/clang64/bin/cmake.exe" "C:/Users/cplaf/Documents/PROJECTO/MissionControlSuite"
+MakeCommand: C:/msys64/clang64/bin/cmake.exe --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 
 # version control
@@ -62,8 +63,8 @@ UpdateOptions:
 UpdateType: git
 
 # Compiler info
-Compiler: C:/Dwimperl/c/bin/c++.exe
-CompilerVersion: 4.4.3
+Compiler: C:/msys64/clang64/bin/clang++.exe
+CompilerVersion: 22.1.8
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 
@@ -94,6 +95,9 @@ TimeOut: 1500
 # so would cause the system load to exceed this value.
 TestLoad: 
 
+TLSVerify: 
+TLSVersion: 
+
 UseLaunchers: 
 CurlOptions: 
 # warning, if you add new options here that have to do with submit,
@@ -103,3 +107,8 @@ CurlOptions:
 # specify behavior for retrying the submission
 CTestSubmitRetryDelay: 5
 CTestSubmitRetryCount: 3
+
+# Invoke each test with environment variables configuring tool's collection.
+CTestTestCoverageTool: 
+CTestTestCoverageMergeExecutable: 
+CTestTestCoverageDataExecutable: 
