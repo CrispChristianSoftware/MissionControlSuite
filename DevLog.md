@@ -12,4 +12,6 @@
 ### MSYS2 - Needed for developing c++ software on windows 
 
 ## July 28th 
-### 
+### removed nlohmann and json.hpp references in order to use normal .txt files for the maps instead. After going back and fourth intermittinly for a while
+### it seems that the my version os vscode and cmake just isn't recognizing json.hpp as valid and digging deeper. There seems to be some mismatch in the version of 
+### cmake and g++ that my terminal sees and vscode is actually using. 
