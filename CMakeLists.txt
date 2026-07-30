@@ -12,14 +12,18 @@ add_executable(MissionControl src/main.cpp)
 
 set_property(TARGET MissionControl PROPERTY CXX_STANDARD 20)
 
-set(CMAKE_CXX_STANDARD 20)
-set(CMAKE_CXX_STANDARD_REQUIRED ON)
+# set(CMAKE_CXX_STANDARD 20)
+# set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 
 if(MSVC)
-    target_compile_options(MissionControl PRIVATE /W4)
+    add_compile_options(/W4)
 else()
-    target_compile_options(MissionControl PRIVATE -Wall -Wextra -Wpedantic)
+    add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+if(MINGW)
+    set(CMAKE_EXE_LINKER_FLAGS "-static")
 endif()
 
 

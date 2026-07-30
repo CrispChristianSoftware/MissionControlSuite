@@ -15,3 +15,6 @@
 ### removed nlohmann and json.hpp references in order to use normal .txt files for the maps instead. After going back and fourth intermittinly for a while
 ### it seems that the my version os vscode and cmake just isn't recognizing json.hpp as valid and digging deeper. There seems to be some mismatch in the version of 
 ### cmake and g++ that my terminal sees and vscode is actually using. 
+
+## July 29th 
+### Finally completed a sucessful cmake build. Outputs correctly to the command terminal 
