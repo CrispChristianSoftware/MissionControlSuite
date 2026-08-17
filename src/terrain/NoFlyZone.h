@@ -15,4 +15,4 @@ class NoFlyZone
         int getRadius() { return radius; };
 };
 
-#endif NOFLYZONE_H
+#endif //NOFLYZONE_H

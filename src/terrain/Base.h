@@ -17,4 +17,4 @@ class Base
 
 
 
-#endif BASE_H
+#endif //BASE_H

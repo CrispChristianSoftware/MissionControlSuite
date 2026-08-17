@@ -527,6 +527,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MissionControl.dir/build.make CMakeFiles/MissionControl.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/terrain/Map.obj: src/terrain/Map.cpp.obj
+.PHONY : src/terrain/Map.obj
+
+# target to build an object file
+src/terrain/Map.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MissionControl.dir/build.make CMakeFiles/MissionControl.dir/src/terrain/Map.cpp.obj
+.PHONY : src/terrain/Map.cpp.obj
+
+src/terrain/Map.i: src/terrain/Map.cpp.i
+.PHONY : src/terrain/Map.i
+
+# target to preprocess a source file
+src/terrain/Map.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MissionControl.dir/build.make CMakeFiles/MissionControl.dir/src/terrain/Map.cpp.i
+.PHONY : src/terrain/Map.cpp.i
+
+src/terrain/Map.s: src/terrain/Map.cpp.s
+.PHONY : src/terrain/Map.s
+
+# target to generate assembly for a file
+src/terrain/Map.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MissionControl.dir/build.make CMakeFiles/MissionControl.dir/src/terrain/Map.cpp.s
+.PHONY : src/terrain/Map.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -568,6 +592,9 @@ help:
 	@echo "... src/main.obj"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/terrain/Map.obj"
+	@echo "... src/terrain/Map.i"
+	@echo "... src/terrain/Map.s"
 .PHONY : help
 
 

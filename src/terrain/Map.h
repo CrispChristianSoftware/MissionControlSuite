@@ -16,10 +16,17 @@ class Map
     public:
         int getWidth();
         int getHeight();
+        string getName();
+
+        void setHeight(int h);
+        void setWidth(int w);
+        void setName(string n);
+
 
     private:
         int width;
         int height;
+        string name;
 
         //Need to add these in later 
         vector<Base> bases;
@@ -31,4 +38,4 @@ class Map
 };
 
 
-#endif MAP_H
+#endif //MAP_H

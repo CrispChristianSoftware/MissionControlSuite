@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/MissionControl.dir/src/main.cpp.obj"
   "CMakeFiles/MissionControl.dir/src/main.cpp.obj.d"
+  "CMakeFiles/MissionControl.dir/src/terrain/Map.cpp.obj"
+  "CMakeFiles/MissionControl.dir/src/terrain/Map.cpp.obj.d"
   "MissionControl.exe"
   "MissionControl.exe.manifest"
   "MissionControl.pdb"

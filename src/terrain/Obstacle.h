@@ -4,6 +4,7 @@
 #define OBSTACLE_H
 
 #include <string>
+using namespace std;
 class Obstacle {
 
     private:
@@ -22,4 +23,4 @@ class Obstacle {
         int getRadius() { return radius; };
 };
 
-#endif OBSTACLE_H
+#endif //OBSTACLE_H

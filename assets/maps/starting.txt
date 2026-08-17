@@ -1,6 +1,6 @@
-name Starting Map
-width 100
-height 100
+name Starting
+mapWidth 100
+mapHeight 100
 
 bases
 
