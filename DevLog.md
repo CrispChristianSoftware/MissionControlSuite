@@ -17,4 +17,8 @@
 ### cmake and g++ that my terminal sees and vscode is actually using. 
 
 ## July 29th 
-### Finally completed a sucessful cmake build. Outputs correctly to the command terminal 
+### Finally completed a sucessful cmake build. Outputs correctly to the command terminal. Achieved by deleting the build folder, buiilding and then running again 
+### which didn't work before but worked this time 
+
+## August 17th 
+### Fixed file path for the starting file

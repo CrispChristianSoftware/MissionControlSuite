@@ -2,27 +2,27 @@
 #include <string>
 #include <iostream>
 #include <fstream>
-#include <cstdlib>
 
 using namespace std;
 
 int main() {
-    //ifstream file("../../assets/maps/starting.txt");
+    fstream file("assets/maps/starting.txt");
 
     cout << "Hello Mission Control Suite\n";
 
-    // string data;
+    if (file) {
+        cout << "File does not exist\n";
+        return 1;
+    }
 
-    // std::cerr << "stderr\n";
-    // std::cout << "stdout\n";
-    // std::cout.flush();
-    //cin.get();
-    // string data;
-    // while (file >> data)
-    // {
-    //     cout << data << endl;
-    // }
+    string data;
 
+    while (file >> data)
+    {
+        cout << data << endl;
+    }
+
+    file.close();
 
     return 0;
 }
