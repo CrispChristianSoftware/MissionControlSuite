@@ -13,6 +13,10 @@ class NoFlyZone
         int getX() { return x; };
         int getY() { return y; };
         int getRadius() { return radius; };
+
+        void setX(int xc) { x = xc; };
+        void setY(int yc) { y = yc; };
+        void setRadius(int r) { radius = r; };
 };
 
 #endif //NOFLYZONE_H

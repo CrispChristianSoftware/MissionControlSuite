@@ -1,26 +1,30 @@
-//This file will contain the obstacles class
+// This file will contain the obstacles class
 
 #ifndef OBSTACLE_H
 #define OBSTACLE_H
 
-#include <string>
 using namespace std;
-class Obstacle {
+#include <string>
 
-    private:
-        string type;
-        int x;
-        int y;
-        int height;
-        int width;
-        int radius;
-    public:
-        string getType() { return type; };
-        int getX() { return x; };
-        int getY() { return y; };
-        int getHeight() { return height; };
-        int getWidth() { return width; };
-        int getRadius() { return radius; };
+class Obstacle
+{
+
+private:
+    string type;
+    int x;
+    int y;
+    int radius;
+
+public:
+    string getType() { return type; };
+    int getX() { return x; };
+    int getY() { return y; };
+    int getRadius() { return radius; };
+
+    void setType(string t) { type = t; };
+    void setX(int xc) { x = xc; };
+    void setY(int yc) { y = yc; };
+    void setRadius(int r) { radius = r; };
 };
 
-#endif //OBSTACLE_H
+#endif // OBSTACLE_H

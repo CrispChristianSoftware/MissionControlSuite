@@ -2,28 +2,24 @@ name Starting
 mapWidth 100
 mapHeight 100
 
-bases
+bases 1
+1
+50
+50
+8
 
-bid 1
-x 50
-y 50
+mapObjects 3 
+building 
+30
+50
+8
 
-map objects 
+tree
+60
+20 
+3
 
-type building 
-x 30
-y 50
-height 8
-radius 8
-
-type tree
-x 60
-y 25 
-height
-radius 3
-
-noFlyZones
-nid 1
-x 75
-y 70
-radius 15
+noFlyZones 1
+75
+70
+15

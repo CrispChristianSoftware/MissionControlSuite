@@ -1,4 +1,4 @@
-//For now the goal will be just to read from txt file and then print that to the console
+// For now the goal will be just to read from txt file and then print that to the console
 #include <string>
 #include <iostream>
 #include <fstream>
@@ -6,52 +6,92 @@
 
 using namespace std;
 
-int main() {
+int main()
+{
     fstream file("../assets/maps/starting.txt");
 
     cout << "Hello Mission Control Suite\n";
     cout << "Loading up a skeleton\n";
 
-    if (!file) {
+    if (!file)
+    {
         cout << "File 'starting map' does not exist\n";
         return 1;
     }
 
     string data;
 
-    //Get all of the data into the class objects
+    // Get all of the data into the class objects
     Map mapOne;
     while (file >> data)
     {
-        //Map name and dimensions
-        if (data == "name") {
+        // Map name and dimensions
+        if (data == "name")
+        {
             string name;
-            file >> name;
+            int width, height;
+            file >> name >> width >> height;
             mapOne.setName(name);
+            mapOne.setWidth(width);
+            mapOne.setHeight(height);
         }
-        else if (data == "mapWidth")
+        // All bases should should have a base id, an x cord, a y cord, and a radius
+        else if (data == "bases")
         {
-            int w;
-            file >> w;
-            mapOne.setWidth(w);
+            int count;
+            file >> count;
+
+            while (count > 0)
+            {
+                Base base;
+                int bid, x, y, r;
+                file >> bid >> x >> y >> r;
+                base.setId(bid);
+                base.setX(x);
+                base.setY(y);
+                base.setRadius(r);
+
+                //add to map base vector 
+                mapOne.bases.push_back(base);
+
+                count--;
+            }
         }
-        else if (data == "mapHeight")
+        // Map objects are the same way but have a type instead of an id
+        else if (data == "mapObjects")
         {
-            int h;
-            file >> h;
-            mapOne.setHeight(h);
-        } else {
-                    cout << data << endl;
+            int count;
+            file >> count;
+
+            while (count > 0)
+            {
+                Obstacle obstacle;
+                string type;
+                int x, y, r;
+                file >> type >> x >> y >> r;
+                obstacle.setType(type);
+                obstacle.setX(x);
+                obstacle.setY(y);
+                obstacle.setRadius(r);
+
+                //Add to the obstacles vector 
+                mapOne.obstacles.push_back(obstacle);
+
+                count --;
+            }
+        }
+
+        else
+        {
+            cout << data << endl;
         }
     }
 
     file.close();
 
-    cout << "\nThe map name is " << mapOne.getName() 
-        << " map, it is " << mapOne.getHeight() << " high by " 
-        << mapOne.getWidth() << " wide" << endl;
-
+    cout << "\nThe map name is " << mapOne.getName()
+         << " map, it is " << mapOne.getHeight() << " high by "
+         << mapOne.getWidth() << " wide" << endl;
 
     return 0;
 }
-

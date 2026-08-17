@@ -21,4 +21,5 @@
 ### which didn't work before but worked this time 
 
 ## August 17th 
-### Fixed file path for the starting file
+### Fixed file path for the starting file. Fleshed out the classes for the bases, mapobjects and no fly zones
+### Encountered an error with assigning a string to a string (function "std::__1::basic_string<_CharT, _Traits, _Allocator>::operator=(const std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> &) [with _CharT=char, _Traits=std::__1::char_traits<char>, _Allocator=std::__1::allocator<char>]" (declared implicitly) cannot be referenced -- it is a deleted functionC/C++(1776))
