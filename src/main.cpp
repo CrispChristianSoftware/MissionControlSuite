@@ -6,11 +6,11 @@
 using namespace std;
 
 int main() {
-    fstream file("assets/maps/starting.txt");
+    fstream file("../assets/maps/starting.txt");
 
     cout << "Hello Mission Control Suite\n";
 
-    if (file) {
+    if (!file) {
         cout << "File does not exist\n";
         return 1;
     }
