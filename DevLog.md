@@ -24,3 +24,4 @@
 ### Fixed file path for the starting file. Fleshed out the classes for the bases, mapobjects and no fly zones
 ### Encountered an error with assigning a string to a string (function "std::__1::basic_string<_CharT, _Traits, _Allocator>::operator=(const std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> &) [with _CharT=char, _Traits=std::__1::char_traits<char>, _Allocator=std::__1::allocator<char>]" (declared implicitly) cannot be referenced -- it is a deleted functionC/C++(1776)) is seems it thinks I'm trying to assigna const variable a new value
 ### This seems to be from some mismatch and probably because I have way too many versions of c++ compilers on my machine, so I think I might delete them and restart with only one
+### After a hour or two I'm 90% what was causing this was some kind of compiler problem and I was able to switch to the 2019 visual studio compiler and everything is working fine now

@@ -9,11 +9,10 @@ using namespace std;
 int main()
 {
     fstream file("../assets/maps/starting.txt");
-
     cout << "Hello Mission Control Suite\n";
-    cout << "Loading up a skeleton\n";
+    cout << "Loading up a map skeleton\n";
 
-    if (!file)
+    if (!file.is_open())
     {
         cout << "File 'starting map' does not exist\n";
         return 1;
@@ -78,10 +77,6 @@ int main()
                 mapOne.obstacles.push_back(obstacle);
 
                 count --;
-
-                string one = " ";
-                string two = "1";
-                one = two;
             }
         }
 
