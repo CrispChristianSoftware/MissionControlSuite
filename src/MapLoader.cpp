@@ -6,7 +6,7 @@
 Map MapLoader::load(string mapName)
 {
     fstream file(mapName);
-    cout << "Loading up a map skeleton\n";
+    cout << "Loading " << mapName << endl;
     string data;
 
     // Get all of the data into the class objects
@@ -14,7 +14,7 @@ Map MapLoader::load(string mapName)
 
     if (!file.is_open())
     {
-        cout << "ERROR: File " << mapName << " does failed to open\n";
+        cout << "ERROR: " << mapName << " failed to open\n";
         mapOne.setName("NULL");
         return mapOne;
     }

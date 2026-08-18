@@ -358,6 +358,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   <ItemGroup>
     <ClCompile Include="C:\Users\cplaf\Documents\PROJECTO\MissionControlSuite\src\main.cpp" />
     <ClCompile Include="C:\Users\cplaf\Documents\PROJECTO\MissionControlSuite\src\terrain\Map.cpp" />
+    <ClCompile Include="C:\Users\cplaf\Documents\PROJECTO\MissionControlSuite\src\MapLoader.cpp" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

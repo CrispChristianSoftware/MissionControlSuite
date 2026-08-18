@@ -8,19 +8,24 @@ using namespace std;
 
 int main()
 {
-    string mapName = "../assets/maps/starting.txt";
+    string mapName = "assets/maps/starting.txt";
+
     cout << "Hello Mission Control Suite\n";
-    cout << "Loading up a map skeleton\n";
+
     Map mapOne = MapLoader::load(mapName);
 
     if (mapOne.getName() == "NULL")
     {
-        cout << "Map Failure!\n";
+        cout << "Map Loading Failure!\n";
+        return 1;
     }
 
     cout << "\nThe map name is " << mapOne.getName()
          << " map, it is " << mapOne.getHeight() << " high by "
-         << mapOne.getWidth() << " wide" << endl;
+         << mapOne.getWidth() << " wide" << endl
+         << "There are " << mapOne.bases.size() << " bases\n"
+         << mapOne.obstacles.size() << " map objects and\n"
+         << mapOne.noFlyZones.size() << " no fly zones\n";
 
     return 0;
 }

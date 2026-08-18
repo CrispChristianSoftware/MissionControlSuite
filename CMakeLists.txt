@@ -7,7 +7,7 @@ project(MissionControl VERSION 0.1.0 LANGUAGES CXX)
 include(CTest)
 enable_testing()
 
-add_executable(MissionControl src/main.cpp src/terrain/Map.cpp)
+add_executable(MissionControl src/main.cpp src/terrain/Map.cpp src/MapLoader.cpp)
 
 set_property(TARGET MissionControl PROPERTY CXX_STANDARD 20)
 
