@@ -122,7 +122,7 @@ events:
       Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
       Copyright (C) Microsoft Corporation. All rights reserved.
       
-      Build started 8/17/2026 9:42:17 PM.
+      Build started 8/17/2026 10:26:32 PM.
       Project "C:\\Users\\cplaf\\Documents\\PROJECTO\\MissionControlSuite\\out\\build\\Visual Studio Community 2019 Release - amd64\\CMakeFiles\\4.4.0\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
         Creating directory "Debug\\".
@@ -148,7 +148,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.92
+      Time Elapsed 00:00:00.94
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -1222,8 +1222,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/cplaf/Documents/PROJECTO/MissionControlSuite/out/build/Visual Studio Community 2019 Release - amd64/CMakeFiles/CMakeScratch/TryCompile-f8bvay"
-      binary: "C:/Users/cplaf/Documents/PROJECTO/MissionControlSuite/out/build/Visual Studio Community 2019 Release - amd64/CMakeFiles/CMakeScratch/TryCompile-f8bvay"
+      source: "C:/Users/cplaf/Documents/PROJECTO/MissionControlSuite/out/build/Visual Studio Community 2019 Release - amd64/CMakeFiles/CMakeScratch/TryCompile-z15uj0"
+      binary: "C:/Users/cplaf/Documents/PROJECTO/MissionControlSuite/out/build/Visual Studio Community 2019 Release - amd64/CMakeFiles/CMakeScratch/TryCompile-z15uj0"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -1234,38 +1234,38 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: false
       stdout: |
-        Change Dir: 'C:/Users/cplaf/Documents/PROJECTO/MissionControlSuite/out/build/Visual Studio Community 2019 Release - amd64/CMakeFiles/CMakeScratch/TryCompile-f8bvay'
+        Change Dir: 'C:/Users/cplaf/Documents/PROJECTO/MissionControlSuite/out/build/Visual Studio Community 2019 Release - amd64/CMakeFiles/CMakeScratch/TryCompile-z15uj0'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_c7007.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_6e91e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 8/17/2026 9:42:18 PM.
-        Project "C:\\Users\\cplaf\\Documents\\PROJECTO\\MissionControlSuite\\out\\build\\Visual Studio Community 2019 Release - amd64\\CMakeFiles\\CMakeScratch\\TryCompile-f8bvay\\cmTC_c7007.vcxproj" on node 1 (default targets).
+        Build started 8/17/2026 10:26:33 PM.
+        Project "C:\\Users\\cplaf\\Documents\\PROJECTO\\MissionControlSuite\\out\\build\\Visual Studio Community 2019 Release - amd64\\CMakeFiles\\CMakeScratch\\TryCompile-z15uj0\\cmTC_6e91e.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "C:\\Users\\cplaf\\Documents\\PROJECTO\\MissionControlSuite\\out\\build\\Visual Studio Community 2019 Release - amd64\\CMakeFiles\\CMakeScratch\\TryCompile-f8bvay\\Debug\\".
-          Creating directory "cmTC_c7007.dir\\Debug\\cmTC_c7007.tlog\\".
+          Creating directory "C:\\Users\\cplaf\\Documents\\PROJECTO\\MissionControlSuite\\out\\build\\Visual Studio Community 2019 Release - amd64\\CMakeFiles\\CMakeScratch\\TryCompile-z15uj0\\Debug\\".
+          Creating directory "cmTC_6e91e.dir\\Debug\\cmTC_6e91e.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_c7007.dir\\Debug\\cmTC_c7007.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_6e91e.dir\\Debug\\cmTC_6e91e.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_c7007.dir\\Debug\\\\" /Fd"cmTC_c7007.dir\\Debug\\vc142.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_6e91e.dir\\Debug\\\\" /Fd"cmTC_6e91e.dir\\Debug\\vc142.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30152 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
           CMakeCXXCompilerABI.cpp
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_c7007.dir\\Debug\\\\" /Fd"cmTC_c7007.dir\\Debug\\vc142.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_6e91e.dir\\Debug\\\\" /Fd"cmTC_6e91e.dir\\Debug\\vc142.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\cplaf\\Documents\\PROJECTO\\MissionControlSuite\\out\\build\\Visual Studio Community 2019 Release - amd64\\CMakeFiles\\CMakeScratch\\TryCompile-f8bvay\\Debug\\cmTC_c7007.exe" /INCREMENTAL /ILK:"cmTC_c7007.dir\\Debug\\cmTC_c7007.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/cplaf/Documents/PROJECTO/MissionControlSuite/out/build/Visual Studio Community 2019 Release - amd64/CMakeFiles/CMakeScratch/TryCompile-f8bvay/Debug/cmTC_c7007.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/cplaf/Documents/PROJECTO/MissionControlSuite/out/build/Visual Studio Community 2019 Release - amd64/CMakeFiles/CMakeScratch/TryCompile-f8bvay/Debug/cmTC_c7007.lib" /MACHINE:X64  /machine:x64 cmTC_c7007.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_c7007.vcxproj -> C:\\Users\\cplaf\\Documents\\PROJECTO\\MissionControlSuite\\out\\build\\Visual Studio Community 2019 Release - amd64\\CMakeFiles\\CMakeScratch\\TryCompile-f8bvay\\Debug\\cmTC_c7007.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\cplaf\\Documents\\PROJECTO\\MissionControlSuite\\out\\build\\Visual Studio Community 2019 Release - amd64\\CMakeFiles\\CMakeScratch\\TryCompile-z15uj0\\Debug\\cmTC_6e91e.exe" /INCREMENTAL /ILK:"cmTC_6e91e.dir\\Debug\\cmTC_6e91e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/cplaf/Documents/PROJECTO/MissionControlSuite/out/build/Visual Studio Community 2019 Release - amd64/CMakeFiles/CMakeScratch/TryCompile-z15uj0/Debug/cmTC_6e91e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/cplaf/Documents/PROJECTO/MissionControlSuite/out/build/Visual Studio Community 2019 Release - amd64/CMakeFiles/CMakeScratch/TryCompile-z15uj0/Debug/cmTC_6e91e.lib" /MACHINE:X64  /machine:x64 cmTC_6e91e.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_6e91e.vcxproj -> C:\\Users\\cplaf\\Documents\\PROJECTO\\MissionControlSuite\\out\\build\\Visual Studio Community 2019 Release - amd64\\CMakeFiles\\CMakeScratch\\TryCompile-z15uj0\\Debug\\cmTC_6e91e.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_c7007.dir\\Debug\\cmTC_c7007.tlog\\unsuccessfulbuild".
-          Touching "cmTC_c7007.dir\\Debug\\cmTC_c7007.tlog\\cmTC_c7007.lastbuildstate".
-        Done Building Project "C:\\Users\\cplaf\\Documents\\PROJECTO\\MissionControlSuite\\out\\build\\Visual Studio Community 2019 Release - amd64\\CMakeFiles\\CMakeScratch\\TryCompile-f8bvay\\cmTC_c7007.vcxproj" (default targets).
+          Deleting file "cmTC_6e91e.dir\\Debug\\cmTC_6e91e.tlog\\unsuccessfulbuild".
+          Touching "cmTC_6e91e.dir\\Debug\\cmTC_6e91e.tlog\\cmTC_6e91e.lastbuildstate".
+        Done Building Project "C:\\Users\\cplaf\\Documents\\PROJECTO\\MissionControlSuite\\out\\build\\Visual Studio Community 2019 Release - amd64\\CMakeFiles\\CMakeScratch\\TryCompile-z15uj0\\cmTC_6e91e.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.67
+        Time Elapsed 00:00:00.69
         
       exitCode: 0
   -
@@ -1278,7 +1278,7 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
-        link line: [  C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\cplaf\\Documents\\PROJECTO\\MissionControlSuite\\out\\build\\Visual Studio Community 2019 Release - amd64\\CMakeFiles\\CMakeScratch\\TryCompile-f8bvay\\Debug\\cmTC_c7007.exe" /INCREMENTAL /ILK:"cmTC_c7007.dir\\Debug\\cmTC_c7007.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/cplaf/Documents/PROJECTO/MissionControlSuite/out/build/Visual Studio Community 2019 Release - amd64/CMakeFiles/CMakeScratch/TryCompile-f8bvay/Debug/cmTC_c7007.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/cplaf/Documents/PROJECTO/MissionControlSuite/out/build/Visual Studio Community 2019 Release - amd64/CMakeFiles/CMakeScratch/TryCompile-f8bvay/Debug/cmTC_c7007.lib" /MACHINE:X64  /machine:x64 cmTC_c7007.dir\\Debug\\CMakeCXXCompilerABI.obj] ==> linker [C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe]
+        link line: [  C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\cplaf\\Documents\\PROJECTO\\MissionControlSuite\\out\\build\\Visual Studio Community 2019 Release - amd64\\CMakeFiles\\CMakeScratch\\TryCompile-z15uj0\\Debug\\cmTC_6e91e.exe" /INCREMENTAL /ILK:"cmTC_6e91e.dir\\Debug\\cmTC_6e91e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/cplaf/Documents/PROJECTO/MissionControlSuite/out/build/Visual Studio Community 2019 Release - amd64/CMakeFiles/CMakeScratch/TryCompile-z15uj0/Debug/cmTC_6e91e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/cplaf/Documents/PROJECTO/MissionControlSuite/out/build/Visual Studio Community 2019 Release - amd64/CMakeFiles/CMakeScratch/TryCompile-z15uj0/Debug/cmTC_6e91e.lib" /MACHINE:X64  /machine:x64 cmTC_6e91e.dir\\Debug\\CMakeCXXCompilerABI.obj] ==> linker [C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe]
         linker tool for 'CXX': C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe 
         implicit libs: []
         implicit objs: []

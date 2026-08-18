@@ -79,9 +79,26 @@ int main()
                 count --;
             }
         }
-
-        else
+        else if (data == "noFlyZones")
         {
+            int count;
+            file >> count;
+            while (count > 0)
+            {
+                NoFlyZone nfz;
+                int x, y, r;
+                file >> x >> y >> r;
+                nfz.setX(x);
+                nfz.setY(y);
+                nfz.setRadius(r);
+
+                //Add to the no fly zones
+                mapOne.noFlyZones.push_back(nfz);
+
+                count--;
+            }
+        }
+        else {
             cout << data << endl;
         }
     }
