@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\cplaf\Documents\PROJECTO\MissionControlSuite\out\build\Visual Studio Community 2019 Release - amd64\CMakeFiles\350c570b420475304c185fd28d8efba7\Experimental.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cplaf\Documents\PROJECTO\MissionControlSuite\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\cplaf\Documents\PROJECTO\MissionControlSuite\out\build\Visual Studio Community 2019 Release - amd64\CMakeFiles\Experimental" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{A5FC6884-8666-3402-AB37-AD3A9C2EEB48}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

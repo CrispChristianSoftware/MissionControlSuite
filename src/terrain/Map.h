@@ -1,4 +1,6 @@
 // This will be the header file for the Map Class
+#ifndef MAP_H
+#define MAP_H
 
 #include <vector>
 #include "Obstacle.h"
@@ -6,8 +8,7 @@
 #include "NoFlyZone.h"
 using namespace std;
 
-#ifndef MAP_H
-#define MAP_H
+
 
 class Map
 {

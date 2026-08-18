@@ -1,0 +1,8 @@
+C:/Users/cplaf/Documents/PROJECTO/MissionControlSuite/out/build/Visual Studio Community 2019 Release - amd64/CMakeFiles/Experimental.dir
+C:/Users/cplaf/Documents/PROJECTO/MissionControlSuite/out/build/Visual Studio Community 2019 Release - amd64/CMakeFiles/Nightly.dir
+C:/Users/cplaf/Documents/PROJECTO/MissionControlSuite/out/build/Visual Studio Community 2019 Release - amd64/CMakeFiles/Continuous.dir
+C:/Users/cplaf/Documents/PROJECTO/MissionControlSuite/out/build/Visual Studio Community 2019 Release - amd64/CMakeFiles/NightlyMemoryCheck.dir
+C:/Users/cplaf/Documents/PROJECTO/MissionControlSuite/out/build/Visual Studio Community 2019 Release - amd64/CMakeFiles/MissionControl.dir
+C:/Users/cplaf/Documents/PROJECTO/MissionControlSuite/out/build/Visual Studio Community 2019 Release - amd64/CMakeFiles/RUN_TESTS.dir
+C:/Users/cplaf/Documents/PROJECTO/MissionControlSuite/out/build/Visual Studio Community 2019 Release - amd64/CMakeFiles/ALL_BUILD.dir
+C:/Users/cplaf/Documents/PROJECTO/MissionControlSuite/out/build/Visual Studio Community 2019 Release - amd64/CMakeFiles/ZERO_CHECK.dir

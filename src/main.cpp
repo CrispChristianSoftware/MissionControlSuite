@@ -78,6 +78,10 @@ int main()
                 mapOne.obstacles.push_back(obstacle);
 
                 count --;
+
+                string one = " ";
+                string two = "1";
+                one = two;
             }
         }
 
