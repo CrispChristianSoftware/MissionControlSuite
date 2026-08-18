@@ -14,14 +14,13 @@ Map MapLoader::load(string mapName)
 
     if (!file.is_open())
     {
-        cout << "File " << mapName << " does failed to open\n";
+        cout << "ERROR: File " << mapName << " does failed to open\n";
         mapOne.setName("NULL");
         return mapOne;
     }
 
     while (file >> data)
     {
-        //cout << "data is " << data << endl; TMEP CHECK
         // Map name and dimensions
         if (data == "name")
         {
@@ -53,6 +52,13 @@ Map MapLoader::load(string mapName)
 
                 count--;
             }
+            //Error check
+            if (count != 0)
+            {
+                mapOne.setName("NULL");
+                cout << "ERROR: incorrect amount of bases\n";
+                return mapOne;
+            }
         }
         // Map objects are the same way but have a type instead of an id
         else if (data == "mapObjects")
@@ -76,6 +82,13 @@ Map MapLoader::load(string mapName)
 
                 count --;
             }
+            //Error check
+            if (count != 0)
+            {
+                mapOne.setName("NULL");
+                cout << "ERROR: incorrect amount of map objects\n";
+                return mapOne;
+            }
         }
         //NoFlyZones are are similar but have no id or type
         else if (data == "noFlyZones")
@@ -95,6 +108,13 @@ Map MapLoader::load(string mapName)
                 mapOne.noFlyZones.push_back(nfz);
 
                 count--;
+            }
+            //Error check
+            if (count != 0)
+            {
+                mapOne.setName("NULL");
+                cout << "ERROR: incorrect amount of no fly zones\n";
+                return mapOne;
             }
         }
         else {
