@@ -24,6 +24,7 @@ int main()
     Map mapOne;
     while (file >> data)
     {
+        //cout << "data is " << data << endl; TMEP CHECK
         // Map name and dimensions
         if (data == "name")
         {
@@ -79,6 +80,7 @@ int main()
                 count --;
             }
         }
+        //NoFlyZones are are similar but have no id or type
         else if (data == "noFlyZones")
         {
             int count;
