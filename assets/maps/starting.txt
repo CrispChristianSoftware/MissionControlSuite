@@ -1,0 +1,25 @@
+name Starting
+100
+100
+
+bases 1
+1
+50
+50
+8
+
+mapObjects 2
+building 
+30
+50
+8
+
+tree
+60
+20 
+3
+
+noFlyZones 1
+75
+70
+15
